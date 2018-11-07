@@ -1,0 +1,30 @@
+[Unit]
+Description=etcd
+Documentation=https://coreos.com/etcd/docs/latest/
+After=network.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/etcd \
+  --name k8-controller \
+  --listen-client-urls https://10.0.2.15:2379 \
+  --advertise-client-urls https://10.0.2.15:2379 \
+  --data-dir /var/lib/etcd \
+  --cert-file /etc/kubernetes/pki/etcd.crt \
+  --key-file /etc/kubernetes/pki/etcd.key \
+  --peer-cert-file /etc/kubernetes/pki/etcd-peer.crt \
+  --peer-key-file /etc/kubernetes/pki/etcd-peer.key \
+  --trusted-ca-file /etc/kubernetes/pki/etcd-ca.crt \
+  --peer-trusted-ca-file /etc/kubernetes/pki/etcd-ca.crt \
+  --peer-client-cert-auth \
+  --client-cert-auth \
+  --initial-advertise-peer-urls https://192.168.33.10:2380 \
+  --listen-peer-urls https://192.168.33.10:2380 \
+  --initial-cluster-token default-27a5f27fe2 \
+  --initial-cluster k8-controller=https://192.168.33.10:2380 \
+  --initial-cluster-state new
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
