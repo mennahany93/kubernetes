@@ -1,8 +1,7 @@
 # kubernetes
 [Draft]
-build k8 from scratch
 
-2 Vms with Bionic Beaver each 1.5 GB RAM
-
-install kubectl on both
+1) Start up machines using Vagrantfile
+2) Add hostnames in /etc/hosts
+3) Configure Certificates that will be used by cluster 
 
