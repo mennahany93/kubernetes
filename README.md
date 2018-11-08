@@ -16,6 +16,7 @@
 8) Prepare boostrapping part: Create the bootstrap token and kubeconfig which will be used by kubelets to
 join the Kubernetes cluster
         Bootstrap token : 0b1f44.55917e1d261c6c2f
+
 9)Expose CA and bootstrap kubeconfig via configmap 
 
 10) Install Docker version used : 1.12
