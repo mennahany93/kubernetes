@@ -29,6 +29,8 @@ https://github.com/mennahany93/kubernetes/tree/master/kubeconfigs
 ## control plane deployment 
    Kubernetes control plane consist of: kube-apiserver , kube-controller-manager , kube-scheduler
    to verify  
+       
+       * export KUBECONFIG=/etc/kubernetes/admin.kubeconfig*
        *kubectl get componentstatuses --kubeconfig /etc/kubernetes/admin.kubeconfig*
 
 8) Prepare boostrapping part: Create the bootstrap token and kubeconfig which will be used by kubelets to
