@@ -10,7 +10,8 @@ Start machines using Vagrantfile
 
 Edit /etc/hosts and make sure that both machines can ping each other
 
-##Generate x509 certs
+# Generate x509 certs 
+
 
 3) Configure Certificates that will be used by cluster 
 4) Install controller Binaries  tag=v1.8.7
