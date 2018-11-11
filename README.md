@@ -10,11 +10,8 @@ Start machines using Vagrantfile
 
 Edit /etc/hosts and make sure that both machines can ping each other
 
+##Generate x509 certs
 
-
-
-1) Start up machines using Vagrantfile
-2) Add hostnames in /etc/hosts
 3) Configure Certificates that will be used by cluster 
 4) Install controller Binaries  tag=v1.8.7
 5) Generate kube configs : kubeconfig files are used by a service or a user to authenticate oneself. 
