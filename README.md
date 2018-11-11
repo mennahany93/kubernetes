@@ -10,12 +10,13 @@ Start machines using Vagrantfile
 
 Edit /etc/hosts and make sure that both machines can ping each other
 
-# Generate x509 certs 
+## Generate x509 certs 
 https://github.com/mennahany93/kubernetes/tree/master/Certs
 
+## Install controller Binaries  
+ tag=v1.8.7
+kube-apiserver , kube-controller-manager , kube-scheduler , kube-proxy , kubelet , kubectl 
 
-3) Configure Certificates that will be used by cluster 
-4) Install controller Binaries  tag=v1.8.7
 5) Generate kube configs : kubeconfig files are used by a service or a user to authenticate oneself. 
    (service account kubeconfig / kube scheduler kubeconfig / admin kubeconfig)
 6) Deploy etcd 
