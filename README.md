@@ -1,5 +1,17 @@
 # kubernetes
-[Draft]
+## Starting up machines
+using 2 Vms with ubuntu bionic 
+
+1 controller
+
+1 worker
+
+Start machines using Vagrantfile 
+
+Edit /etc/hosts and make sure that both machines can ping each other
+
+
+
 
 1) Start up machines using Vagrantfile
 2) Add hostnames in /etc/hosts
