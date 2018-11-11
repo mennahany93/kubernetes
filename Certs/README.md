@@ -1,8 +1,8 @@
+# On Controller node 
 
-[Draft]
-
-1) Create openssl configuration file
+1) Create openssl configuration file in /etc/kubernetes/pki directory 
 2) Kubernetes CA cert 
+   used to sign the rest of k8 certs
 3) kube apiserver cert
 4) apiserver kubelet client cert
 5) admin client cert
