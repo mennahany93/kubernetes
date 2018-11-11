@@ -22,9 +22,11 @@ kube-apiserver , kube-controller-manager , kube-scheduler , kube-proxy , kubelet
 kubeconfig files are used by a service or a user to authenticate oneself. enable k8 client to locate and authenticate with api-server 
 
 Generated on **Controller node**
+https://github.com/mennahany93/kubernetes/tree/master/kubeconfigs
 
-   (service account kubeconfig / kube scheduler kubeconfig / admin kubeconfig)
+
 6) Deploy etcd 
+
 7) control plane deployment 
    Kubernetes control plane consist of: kube-apiserver , kube-controller-manager , kube-scheduler
    to verify  
