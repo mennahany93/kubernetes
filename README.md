@@ -18,7 +18,11 @@ https://github.com/mennahany93/kubernetes/tree/master/Certs
  
 kube-apiserver , kube-controller-manager , kube-scheduler , kube-proxy , kubelet , kubectl 
 
-5) Generate kube configs : kubeconfig files are used by a service or a user to authenticate oneself. 
+## Generate kube configs 
+kubeconfig files are used by a service or a user to authenticate oneself. enable k8 client to locate and authenticate with api-server 
+
+Generated on **Controller node**
+
    (service account kubeconfig / kube scheduler kubeconfig / admin kubeconfig)
 6) Deploy etcd 
 7) control plane deployment 
