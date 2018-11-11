@@ -15,6 +15,7 @@ https://github.com/mennahany93/kubernetes/tree/master/Certs
 
 ## Install controller Binaries  
  tag=v1.8.7
+ 
 kube-apiserver , kube-controller-manager , kube-scheduler , kube-proxy , kubelet , kubectl 
 
 5) Generate kube configs : kubeconfig files are used by a service or a user to authenticate oneself. 
