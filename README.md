@@ -24,8 +24,7 @@ kubeconfig files are used by a service or a user to authenticate oneself. enable
 Generated on **Controller node**
 https://github.com/mennahany93/kubernetes/tree/master/kubeconfigs
 
-
-6) Deploy etcd 
+## Deploy etcd 
 
 7) control plane deployment 
    Kubernetes control plane consist of: kube-apiserver , kube-controller-manager , kube-scheduler
