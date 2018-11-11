@@ -11,6 +11,7 @@ Start machines using Vagrantfile
 Edit /etc/hosts and make sure that both machines can ping each other
 
 # Generate x509 certs 
+https://github.com/mennahany93/kubernetes/tree/master/Certs
 
 
 3) Configure Certificates that will be used by cluster 
