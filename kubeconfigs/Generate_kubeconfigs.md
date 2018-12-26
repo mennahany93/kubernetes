@@ -1,5 +1,6 @@
 ### Generate kubeconfigs 
 KUBERNETES_ADDRESS=<load balancer private ip>
+
 1.Generate a kubelet kubeconfig for each worker node:
 ```
 for instance in <worker 1 hostname> <worker 2 hostname>; do
