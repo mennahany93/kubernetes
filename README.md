@@ -1,12 +1,16 @@
 # kubernetes
 ## Starting up machines
-using 2 Vms with ubuntu bionic 
+1. two controller machines
+2. two worker machines
+3. loadbalancer 
 
-1 controller
+Manage all the work on kubernetes machine from local (client) machine 
+### Install client tools 
+1. cfssl 
+2. kubectl 
 
-1 worker
-
-Start machines using Vagrantfile 
+### Generate CA 
+ 
 
 Edit /etc/hosts and make sure that both machines can ping each other
 
