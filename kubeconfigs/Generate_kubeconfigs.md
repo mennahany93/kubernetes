@@ -1,5 +1,5 @@
 ### Generate kubeconfigs 
-KUBERNETES_ADDRESS=<load balancer private ip>
+KUBERNETES_ADDRESS="load balancer private ip>"
 
 1.Generate a kubelet kubeconfig for each worker node:
 ```
