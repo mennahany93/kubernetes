@@ -9,7 +9,7 @@ Manage all the work on kubernetes machine from local (client) machine
 1. cfssl 
 2. kubectl 
 
-### Generate CA 
+### Generate certificates and distribute them 
 https://github.com/mennahany93/kubernetes/tree/master/Certs
  
 
