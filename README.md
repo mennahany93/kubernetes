@@ -10,6 +10,7 @@ Manage all the work on kubernetes machine from local (client) machine
 2. kubectl 
 
 ### Generate CA 
+https://github.com/mennahany93/kubernetes/tree/master/Certs
  
 
 Edit /etc/hosts and make sure that both machines can ping each other
