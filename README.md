@@ -12,11 +12,13 @@ Manage all the work on kubernetes machine from local (client) machine
 ### Generate certificates and distribute them 
 https://github.com/mennahany93/kubernetes/tree/master/Certs
  
+### Generate kubeconfigs 
+kubeconfig files are used by a service or a user to authenticate oneself. enable k8 client to locate and authenticate with api-server
+https://github.com/mennahany93/kubernetes/tree/master/kubeconfigs
 
-Edit /etc/hosts and make sure that both machines can ping each other
 
-## Generate x509 certs 
-https://github.com/mennahany93/kubernetes/tree/master/Certs
+
+
 
 ## Install controller Binaries  
  tag=v1.8.7
@@ -24,7 +26,7 @@ https://github.com/mennahany93/kubernetes/tree/master/Certs
 kube-apiserver , kube-controller-manager , kube-scheduler , kube-proxy , kubelet , kubectl 
 
 ## Generate kube configs 
-kubeconfig files are used by a service or a user to authenticate oneself. enable k8 client to locate and authenticate with api-server 
+ 
 
 Generated on **Controller node**
 https://github.com/mennahany93/kubernetes/tree/master/kubeconfigs
