@@ -1,4 +1,4 @@
-# On Controller node 
+# Locally generate CA cert 
 
 1) **Create openssl configuration file** in /etc/kubernetes/pki directory 
 2) **Kubernetes CA cert** used to sign the rest of k8 certs
