@@ -48,6 +48,7 @@ scp encryption-config.yaml user@<controller 2 public ip>:~/
 
 ### Setting up etcd 
 It is a distributed key value store that provides a way to store data across cluster of machines
+https://github.com/mennahany93/kubernetes/tree/master/etcd
 
 
 
