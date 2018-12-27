@@ -1,5 +1,5 @@
 # kubernetes
-## Starting up machines
+### Starting up machines
 1. two controller machines
 2. two worker machines
 3. loadbalancer 
@@ -47,6 +47,7 @@ scp encryption-config.yaml user@<controller 2 public ip>:~/
 ```
 
 ### Setting up etcd 
+It is a distributed key value store that provides a way to store data across cluster of machines
 
 
 
