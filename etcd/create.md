@@ -9,6 +9,7 @@ sudo mkdir -p /etc/etcd /var/lib/etcd
 sudo cp ca.pem kubernetes-key.pem kubernetes.pem /etc/etcd/
 ```
 2. Set up the following environment variables. Be sure you replace all of the <placeholder values> with their corresponding real values:
+
 ```
 ETCD_NAME=<cloud server hostname>
 INTERNAL_IP=$(curl http://169.254.169.254/latest/meta-data/local-ipv4)
