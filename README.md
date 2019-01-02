@@ -78,6 +78,7 @@ https://github.com/mennahany93/kubernetes/tree/master/kube-apiserver
 https://github.com/mennahany93/kubernetes/tree/master/controller_manager
 
 ### setting up kube-scheduler
+https://github.com/mennahany93/kubernetes/tree/master/kube-scheduler
 
 ### Enable http health checks
 Part of Kelsey Hightower's original Kubernetes the Hard Way guide involves setting up an nginx proxy on each controller to provide access to the Kubernetes API /healthz endpoint over http. This lesson explains the reasoning behind the inclusion of that step and guides you through the process of implementing the http /healthz proxy.
@@ -239,6 +240,12 @@ sudo tar -xvf cni-plugins-amd64-v0.6.0.tgz -C /opt/cni/bin/
 sudo tar -xvf containerd-1.1.0.linux-amd64.tar.gz -C /
 ```
 ### Install containerd
+https://github.com/mennahany93/kubernetes/tree/master/Containerd 
+
+### worker components 
+https://github.com/mennahany93/kubernetes/tree/master/Kubelet
+
+https://github.com/mennahany93/kubernetes/tree/master/Kubeproxy
 
 ### Set up kubectl for remote access
 In a separate shell, open up an ssh tunnel to port 6443 on your Kubernetes API load balancer:
@@ -271,5 +278,7 @@ kubectl get nodes
 kubectl version
 ```
 ### Networking
+https://github.com/mennahany93/kubernetes/tree/master/Networking
 
 ### Deploying the DNS Cluster
+https://github.com/mennahany93/kubernetes/tree/master/DNS-cluster
